@@ -1,0 +1,7 @@
+
+[workspace]
+members = ["build-ctx", "build-ctx-codegen", "user"]
+
+[workspace.dependencies]
+build-ctx = { path = "build-ctx" }
+build-ctx-codegen = { path = "build-ctx-codegen" }
